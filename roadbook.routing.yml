@@ -1,0 +1,9 @@
+roadbook.page:
+  path: '/offers/custom-trips/roadbook'
+  defaults:
+    _title: 'Roadbook'
+    _controller: '\Drupal\sfc\Controller\ComponentController::build'
+    component_id: 'roadbook_page'
+    # anon_session: 'TRUE'
+  requirements:
+    _access: 'TRUE'

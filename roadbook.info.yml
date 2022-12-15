@@ -1,0 +1,6 @@
+name: Roadbook
+type: module
+description: 'Custom SFC module for Roadbook.'
+core_version_requirement: ^9 || ^10
+dependencies:
+  - sfc:sfc

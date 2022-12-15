@@ -1,0 +1,20 @@
+<template>
+  <div id="root" class="block">Loading...</div>
+</template>
+
+<?php
+
+$definition['block'] = [
+  'admin_label' => 'Roadbook React Block',
+];
+
+$library = [
+  'js' => [
+      'dist/js/main.min.js.gz' => ['preprocess: false', 'async: true', 'attributes: { type: module }'],
+  ],
+  'css' => [
+    'base' => [
+      'dist/css/index.css' => [],
+    ],
+  ],
+];

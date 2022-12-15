@@ -1,0 +1,4 @@
+morphdom:
+  version: VERSION
+  js:
+    //unpkg.com/morphdom@2.6.1/dist/morphdom-umd.js: {type: external}
